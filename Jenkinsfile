@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/yourusername/aws-jenkins-demo.git'
+                git 'https://github.com/ajit010/AWS-Jenkins.git'
             }
         }
         stage('Create S3 Bucket') {
